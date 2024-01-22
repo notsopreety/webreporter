@@ -1,13 +1,15 @@
 {
-  "name": "nodejs",
+  "name": "webreporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple web report redirector for websites to redirect web users report to your Telegram Inbox through Telebot.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Web Reporter"
+  ],
+  "author": "Samir Thakuri",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
